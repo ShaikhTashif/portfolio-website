@@ -46,7 +46,7 @@ const projects = [
     {
         title: "Clone",
         description: "This is a login page clone.",
-        technologies: ["HTML", "CSS", "JavaScript", "React","",""],
+        technologies: ["HTML", "CSS",],
         image: "Clone.png",
         liveLink: "#",
         codeLink: "https://github.com/ShaikhTashif/chapter-3.git"
@@ -54,7 +54,7 @@ const projects = [
     {
         title: "AIML",
         description: "This is my AIML project's I'm completed Python in ML journey to Explore multiple work.",
-        technologies: ["HTML", "CSS", "JavaScript", ],
+        technologies: ["Python", ],
         image: "project's.png",
         liveLink:"#",
         codeLink: "https://github.com/ShaikhTashif/AIML-.git"
@@ -115,6 +115,7 @@ projects.forEach(project => {
         button.addEventListener('mouseover', function() {
             console.log('Mouse over button');
         });
+
 
 
 
