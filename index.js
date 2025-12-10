@@ -44,20 +44,20 @@ window.addEventListener('scroll', () => {
 // Project data
 const projects = [
     {
-        title: "Toilate Traker",
-        description: "This is the toilate Traker and find the toilate in all the world support in your life.",
+        title: "Clone",
+        description: "This is a login page clone.",
         technologies: ["HTML", "CSS", "JavaScript", "React","",""],
-        image: "Toliate Traker webiste.jpg",
+        image: "Clone.png",
         liveLink: "#",
-        codeLink: "#"
+        codeLink: "https://github.com/ShaikhTashif/chapter-3.git"
     },
     {
-        title: "Calculater",
-        description: "Calculation , substraction , addition , multiplication to calculate the number of data in a calculater.",
+        title: "AIML",
+        description: "This is my AIML project's I'm completed Python in ML journey to Explore multiple work.",
         technologies: ["HTML", "CSS", "JavaScript", ],
-        image: "Calculater.jpg",
+        image: "project's.png",
         liveLink:"#",
-        codeLink: "https://github.com/ShaikhTashif/calculater.git"
+        codeLink: "https://github.com/ShaikhTashif/AIML-.git"
     },
     {
         title: "Tic_Tac_Teo Game",
@@ -93,28 +93,29 @@ projects.forEach(project => {
     projectsGrid.appendChild(projectCard);
 });
 
-        // const button = document.getElementById('myButton');
+        const button = document.getElementById('myButton');
         
-        // // Click event handler
-        // button.addEventListener('click', function() {
-        //     // Toggle a 'clicked' class
-        //     this.classList.toggle('Clicked');
+        // Click event handler
+        button.addEventListener('click', function() {
+            // Toggle a 'clicked' class
+            this.classList.toggle('Clicked');
             
-        //     // Change button text
-        //     if (this.classList.contains('clicked')) {
-        //         this.textContent = 'clicked me';
-        //     } else {
-        //         this.textContent = 'CV';
-        //     }
+            // Change button text
+            if (this.classList.contains('clicked')) {
+                this.textContent = 'clicked me';
+            } else {
+                this.textContent = 'CV';
+            }
             
-        //     // Alternatively, perform some action
-        //     console.log('Button was clicked!');
-        // });
+            // Alternatively, perform some action
+            console.log('Button was clicked!');
+        });
         
-        // // You can also add other event listeners
-        // button.addEventListener('mouseover', function() {
-        //     console.log('Mouse over button');
-        // });
+        // You can also add other event listeners
+        button.addEventListener('mouseover', function() {
+            console.log('Mouse over button');
+        });
+
 
 
 
